@@ -2,6 +2,7 @@
 title: 分布式定时任务中间件 xxl-job 集成指南
 excerpt: 分布式定时任务中间件 xxl-job SpringBoot 集成指南
 date: 2022-1-7 18:33:30
+index_img: https://paradise-1256237186.cos.ap-nanjing.myqcloud.com/Snipaste_2022-01-08_23-25-52.png
 tags:
 - SpringBoot
 - 定时任务
