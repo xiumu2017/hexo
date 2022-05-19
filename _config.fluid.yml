@@ -57,11 +57,13 @@ code:
       # 在链接中挑选 style 填入
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
-      style: "Github Gist"
+      # style: "Github Gist"
+      # style: "Gradient Dark"
+      style: "Gradient Light"
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
-      bg_color: true
+      bg_color: false
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
@@ -83,7 +85,7 @@ fun_features:
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
-    typeSpeed: 100
+    typeSpeed: 80
 
     # 游标字符
     # Cursor character
@@ -427,7 +429,8 @@ index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
   # banner_img: /img/default.png
-  banner_img: https://paradise-1256237186.cos.ap-nanjing.myqcloud.com/Snipaste_2022-01-08_23-25-52.png
+  # banner_img: https://paradise-1256237186.cos.ap-nanjing.myqcloud.com/Snipaste_2022-01-08_23-25-52.png
+  banner_img: /img/wallhaven-l3pmly.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -962,44 +965,45 @@ static_prefix:
   internal_css: /css
   internal_img: /img
 
-  anchor: https://cdn.jsdelivr.net/npm/anchor-js@4/
+  anchor: https://lib.baomitu.com/anchor-js/4.3.1/
 
-  github_markdown: https://cdn.jsdelivr.net/npm/github-markdown-css@4/
+  github_markdown: https://lib.baomitu.com/github-markdown-css/4.0.0/
 
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3/dist/
+  jquery: https://lib.baomitu.com/jquery/3.6.0/
 
-  bootstrap: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/
+  bootstrap: https://lib.baomitu.com/twitter-bootstrap/4.6.1/
 
-  highlightjs: https://cdn.jsdelivr.net/npm/highlight.js@10/
+  highlightjs: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/
+  # highlightjs: https://lib.baomitu.com/highlight.js/10.7.3/
 
-  prismjs: https://cdn.jsdelivr.net/npm/prismjs@1/
+  prismjs: https://unpkg.zhimg.com/prismjs@1/
 
-  tocbot: https://cdn.jsdelivr.net/npm/tocbot@4/dist/
+  tocbot: https://lib.baomitu.com/tocbot/4.18.2/
 
-  typed: https://cdn.jsdelivr.net/npm/typed.js@2/lib/
+  typed: https://lib.baomitu.com/typed.js/2.0.12/
 
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/
+  fancybox: https://lib.baomitu.com/fancybox/3.5.7/
 
-  nprogress: https://cdn.jsdelivr.net/npm/nprogress@0/
+  nprogress: https://lib.baomitu.com/nprogress/0.2.0/
 
-  mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/
+  mathjax: https://lib.baomitu.com/mathjax/3.2.0/es5/
 
-  katex: https://cdn.jsdelivr.net/npm/katex@0/dist/
+  katex: https://lib.baomitu.com/katex/0.15.3/contrib/
 
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
 
-  clipboard: https://cdn.jsdelivr.net/npm/clipboard@2/dist/
+  clipboard: https://lib.baomitu.com/clipboard.js/2.0.10/
 
-  mermaid: https://cdn.jsdelivr.net/npm/mermaid@8/dist/
+  mermaid: https://lib.baomitu.com/mermaid/8.14.0/
 
-  valine: https://cdn.jsdelivr.net/npm/valine@1/dist/
+  valine: https://lib.baomitu.com/valine/1.4.18/
 
-  waline: https://cdn.jsdelivr.net/npm/@waline/client@1/dist/
+  waline: https://lib.baomitu.com/waline/1.6.0/
 
-  gitalk: https://cdn.jsdelivr.net/npm/gitalk@1/dist/
+  gitalk: https://lib.baomitu.com/gitalk/1.7.2/
 
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/
+  disqusjs: https://lib.baomitu.com/disqusjs/1.3.0/
 
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1/dist/
+  twikoo: https://lib.baomitu.com/twikoo/1.5.10
 
-  hint: /lib/hint/
+  hint: https://lib.baomitu.com/hint.css/2.7.0/
