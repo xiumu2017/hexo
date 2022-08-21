@@ -12,13 +12,12 @@ categories:
 - [Life]
 ---
 
-# H1 一级标题
-
 ## H2 二级标题
 
 ### H3 三级标题
 
 代码段：
+
 ```java
 public class Object {
     private static native void registerNatives();
@@ -50,6 +49,7 @@ public class Object {
 ```
 
 来一段 HTML 试试
+
 <div>
 <b style="color: darkred">我是HTML</b>
 </div>
