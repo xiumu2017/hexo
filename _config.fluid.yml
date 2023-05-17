@@ -935,8 +935,8 @@ tag:
 about:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_img_height: 42
+  banner_mask_alpha: 0.33
   subtitle:
   avatar: /img/wx_avatar.jpg
   name: "DongZhang"
@@ -946,7 +946,7 @@ about:
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/xiumu2017", tip: "GitHub" }
     - { class: "iconfont icon-twitter-fill", link: "https://yuque.com/paradise", tip: "语雀" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/wx_code.jpg" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/wx_code_black.jpg" }
 
 
 #---------------------------

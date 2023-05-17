@@ -21,3 +21,10 @@ yarn.lock 文件记录了项目依赖包的精确版本号，以及依赖包之�
 
 当多个开发者协同工作时，yarn.lock 文件可以避免因为不同环境下依赖包版本不一致导致的问题，保证项目在不同环境中的可重现性和稳定性。
 
+### 本博客的自定义配置
+
+```css
+.text {
+    font-family: Verdana, Arial, Helvetica, sans-serif
+}
+```
