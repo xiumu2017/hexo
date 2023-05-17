@@ -227,8 +227,8 @@ color:
 # 主题字体配置
 # Font
 font:
-  font_size: 18px
-  font_family:
+  font_size: 17px
+  font_family: Verdana, Arial, Helvetica, sans-serif
   letter_spacing: 0.02em
   code_font_size: 80%
 
@@ -533,7 +533,8 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://paradise-1256237186.cos.ap-nanjing.myqcloud.com/Snipaste_2022-01-08_23-25-52.png
+#  banner_img: https://paradise-1256237186.cos.ap-nanjing.myqcloud.com/Snipaste_2022-01-08_23-25-52.png
+  banner_img: /img/default.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
