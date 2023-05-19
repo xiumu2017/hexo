@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Dingding;
+    src: url("https://image.zdzy.xyz/fonts/DingTalk%20JinBuTi.ttf"), url("https://image.zdzy.xyz/fonts/DingTalk%20Sans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MiSans;
+    src: url("https://image.zdzy.xyz/fonts/MiSans-Normal.ttf") format("truetype");
+}
+
+article .markdown-body {
+    font-family: "MiSans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.15rem;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5 {
+    font-family: "Dingding", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: bolder;
+}

@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/fluid.png
+favicon: /img/icon/favicon.ico
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/fluid.png
+apple_touch_icon: /img/icon/apple-touch-ico.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -228,7 +228,8 @@ color:
 # Font
 font:
   font_size: 17px
-  font_family: Verdana, Arial, Helvetica, sans-serif
+  #  font_family: Verdana, Arial, Helvetica, sans-serif
+#  font_family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif;
   letter_spacing: 0.02em
   code_font_size: 80%
 
@@ -238,11 +239,11 @@ custom_js:
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css:
+custom_css: /css/custom.css
 
 # 网页访问统计
 # Analysis of website visitors
-web_analytics:  # 网页访问统计
+web_analytics: # 网页访问统计
   enable: true
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
@@ -445,11 +446,11 @@ footer:
     # ICP证号
     icp_text: 皖ICP备20002272号
     # 公安备案号，不填则只显示ICP
-    police_text: 
+    police_text:
     # 公安备案的编号，用于URL跳转查询
-    police_code: 
+    police_code:
     # 公安备案的图片. 为空时不显示备案图片
-    police_icon: 
+    police_icon:
 
 
 #---------------------------
@@ -498,11 +499,11 @@ index:
 
       # 请求头
       # Request headers
-      headers: {}
+      headers: { }
 
       # 从请求结果获取字符串的取值字段，最终必须是一个字符串，例如返回结果为 {"data": {"author": "fluid", "content": "An elegant theme"}}, 则取值字段为 ['data', 'content']；如果返回是列表则自动选择第一项
       # The value field of the string obtained from the response. For example, the response content is {"data": {"author": "fluid", "content": "An elegant theme"}}, the expected `keys: ['data','content']`; if the return is a list, the first item is automatically selected
-      keys: ["data"]
+      keys: [ "data" ]
 
   # 自动截取文章摘要
   # Auto extract post
@@ -533,7 +534,7 @@ index:
 # Post Page
 #---------------------------
 post:
-#  banner_img: https://paradise-1256237186.cos.ap-nanjing.myqcloud.com/Snipaste_2022-01-08_23-25-52.png
+  #  banner_img: https://paradise-1256237186.cos.ap-nanjing.myqcloud.com/Snipaste_2022-01-08_23-25-52.png
   banner_img: /img/default.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
@@ -602,7 +603,7 @@ post:
     # Note class
     # Options: default | primary | info | success | warning | danger | light
     note_class: info
- 
+
   # 侧边栏展示当前分类下的文章
   # Sidebar of category
   category_bar:
@@ -682,7 +683,7 @@ post:
     enable: true
     # 放大后图片链接替换规则，可用于将压缩图片链接替换为原图片链接，如 ['-slim', ''] 是将链接中 `-slim` 移除；如果想使用正则请使用 `re:` 前缀，如 ['re:\\d{3,4}\\/\\d{3,4}\\/', '']
     # The image url replacement when zooming, the feature can be used to replace the compressed image to the original image, eg: ['-slim', ''] removes `-slim` from the image url when zooming; if you want to use regular, use prefix `re:`, eg: ['re:\\d{3,4}\\/\\d{3,4}\\/','']
-    img_url_replace: ['', '']
+    img_url_replace: [ '', '' ]
 
   # 脚注语法，会在文章底部生成脚注，如果 Markdown 渲染器本身支持，则建议关闭，否则可能会冲突
   # Support footnote syntax, footnotes will be generated at the bottom of the post page. If the Markdown renderer itself supports it, please disable it, otherwise it may conflict
@@ -771,9 +772,9 @@ gitalk:
   clientSecret:
   repo:
   owner:
-  admin: ['name']
+  admin: [ 'name' ]
   language: zh-CN
-  labels: ['Gitalk']
+  labels: [ 'Gitalk' ]
   perPage: 10
   pagerDirection: last
   distractionFreeMode: false
@@ -794,8 +795,8 @@ valine:
   path: window.location.pathname
   placeholder:
   avatar: 'retro'
-  meta: ['nick', 'mail', 'link']
-  requiredFields: []
+  meta: [ 'nick', 'mail', 'link' ]
+  requiredFields: [ ]
   pageSize: 10
   lang: 'zh-CN'
   highlight: false
@@ -813,10 +814,10 @@ waline:
   serverURL: ''
   path: window.location.pathname
   placeholder:
-  meta: ['nick', 'mail', 'link']
-  requiredMeta: ['nick']
+  meta: [ 'nick', 'mail', 'link' ]
+  requiredMeta: [ 'nick' ]
   lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+  emoji: [ 'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo' ]
   dark: 'html[data-user-color-scheme="dark"]'
   avatar: 'retro'
   avatarCDN: 'https://seccdn.libravatar.org/avatar/'
@@ -849,7 +850,7 @@ remark42:
   site_id:
   max_shown_comments: 10
   locale: zh
-  components: ['embed']
+  components: [ 'embed' ]
 
 # Twikoo
 # 基于腾讯云开发
