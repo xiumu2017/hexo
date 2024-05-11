@@ -9,6 +9,23 @@ categories:
 - [Tech, FrontEnd]
 ---
 
+
+
+## Hexo
+
+
+
+### 主题 Theme
+
+[Fluid 主题文档](https://hexo.fluid-dev.com/docs/start/#%E4%B8%BB%E9%A2%98%E7%AE%80%E4%BB%8B)
+
+### 插件 Plugins
+
+值得深入研究的几个插件：
+
+1. [图片自动部署替换方案，CDN 加速](https://github.com/lxl80/hexo-deployer-cos-cdn)
+2. [使用 ChatGPT 自动添加标签](https://github.com/declan-haojin/hexo-auto-tag) 
+
 ## Yarn
 
 ### Why Yarn
