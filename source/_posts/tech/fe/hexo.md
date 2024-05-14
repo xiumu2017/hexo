@@ -11,9 +11,35 @@ categories:
 
 
 
+## 本博客搭建指南
+
+本地编辑工具：Typora
+
+代码托管地址：[Github-Hexo](https://github.com/xiumu2017/hexo)
+
+博客托管地址：[Vercel](https://vercel.com/xiumu2017s-projects/hexo)
+
+域名解析：[腾讯云](https://blog.zdzy.xyz) 
+
+图片服务：腾讯云 COS + CDN + Quicker 快捷方式
+
+一开始因为设置了防盗链所以无法在 Typora 中预览图片，COS 桶安全管理中设置允许空 Referer 就好了。
+
+![防盗链设置](https://txoss.zdzy.xyz/img/sungrow/20240514135704.png)
+
+
+
+PicGo Win11 无法安装是什么情况？
+
+准备重启下电脑试试，Still 不行
+
+CDN加速：腾讯云 - 内容分发网络https://getquicker.net/Sharedaction?code=453910f7-b773-4a91-88f9-08dc5a32504a
+
+![image](https://image.zdzy.xyz/image/sungrow/img20240514112013703.jpg)
+
+
+
 ## Hexo
-
-
 
 ### 主题 Theme
 
